@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@multi-app-lib/auth": ["libs/auth/src/index.ts"],
+      "@multi-app-lib/gamora-common-lib": ["libs/gamora-common-lib/src/index.ts"],
+      "@multi-app-lib/hercules-backend-lib": ["libs/hercules-backend-lib/src/index.ts"],
+      "@multi-app-lib/hercules-frontend-lib": ["libs/hercules-frontend-lib/src/index.ts"],
+      "@multi-app-lib/hercules-lib": ["libs/hercules-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

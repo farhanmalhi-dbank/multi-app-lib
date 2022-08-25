@@ -1,5 +1,17 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "auth": "libs/auth",
+    "gamora-backend": "apps/gamora/backend",
+    "gamora-common-lib": "libs/gamora-common-lib",
+    "gamora-frontend": "apps/gamora/frontend",
+    "gamora-frontend-e2e": "apps/gamora/frontend-e2e",
+    "hercules-backend": "apps/hercules/backend",
+    "hercules-backend-lib": "libs/hercules-backend-lib",
+    "hercules-frontend": "apps/hercules/frontend",
+    "hercules-frontend-e2e": "apps/hercules/frontend-e2e",
+    "hercules-frontend-lib": "libs/hercules-frontend-lib",
+    "hercules-lib": "libs/hercules-lib"
+  }
 }
